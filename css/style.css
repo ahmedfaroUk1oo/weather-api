@@ -1,0 +1,133 @@
+.navbar img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+}
+.nav-link {
+    border: 1px solid transparent;
+    color: white;
+}
+.nav-link:hover {
+    border: 1px solid #1AC5E0;
+    color: #1AC5E0;
+}
+
+.navbar-nav .nav-link.active {
+    color: #1AC5E0;
+    border: 1px solid #1AC5E0;
+}
+
+.custom-toggler.navbar-toggler {
+    border:1px solid rgb(26, 197, 224);
+    color: #1AC5E0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(26, 197, 224)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler:hover {
+    border : 1px solid #1AC5E0;
+    color: #1AC5E0;
+}
+
+/* nav  */
+
+/* temp  */
+#weather {
+    background-image: url(../images/benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main-color {
+    color: #1AC5E0;
+}
+
+.date {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.temp {
+    background-color: #323544;
+}
+
+.temp-2 {
+    background-color: #262936;
+
+}
+
+.search .btn {
+    background-color: #1AC5E0;
+    position: absolute;
+    right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* temp  */
+
+
+/* footer  */
+#footer {
+    background-color: #323544;
+}
+.back-ground {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #1AC5E0;
+}
+
+.icons a{
+    transition: .3s all;
+}
+
+.icons a:hover {
+    background-color: #1AC5E0;
+    color: white;
+}
+/* footer  */
+
+
+/* ********************************************************************************* */
+
+/* contact page  */
+#contact .pages {
+    background-color: #323544;
+}
+#contact #home {
+    text-decoration: none;
+}
+#contact #home:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#address {
+    background-color: #323544;
+}
+
+#contact .details img {
+    width: 35px;
+    height: 15px;
+}
+
+#contact-us input {
+    background-color: #323544;
+    color: white;
+}
+
+#contact-us input::placeholder {
+    color: #ddd;
+    opacity: 1; /* Firefox */
+  }
+
+  #contact textarea {
+    resize: none;
+    background-color: #323544;
+    color: white;
+  }
+
+  #contact textarea::placeholder {
+    color: #ddd;
+    opacity: 1; /* Firefox */
+  }
